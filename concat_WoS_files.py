@@ -1,7 +1,5 @@
 # script to concatenate separate WoS-files in one big file
 
-# TEST CHANGE
-
 # possible problems with the import files are:
 # files with UTF-8 BOM: script checks each file for BOM and notifies if a BOM is found. No automatic fix added for extra security 
 # files with <cr> newlines (old style mac): files are opened with universal newline support to recognize all possible newlines. note: universal newline support is standard in Python 3+
